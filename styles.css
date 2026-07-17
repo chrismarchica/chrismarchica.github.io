@@ -227,13 +227,58 @@ a:hover {
 }
 /* Card style ready for when you add projects */
 .project-card {
+  display: flex;
+  flex-direction: column;
   background: var(--bg-light);
   border-radius: 6px;
   padding: 28px;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .project-card:hover {
   transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(2, 12, 27, 0.4);
+}
+.project-card__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.project-card__icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+.project-card__link {
+  font-size: 1.2rem;
+  color: var(--slate-light);
+}
+.project-card__link:hover {
+  color: var(--accent);
+}
+.project-card__title {
+  color: var(--white);
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+.project-card__title a {
+  color: inherit;
+}
+.project-card__title a:hover {
+  color: var(--accent);
+}
+.project-card__desc {
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+.project-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  list-style: none;
+  margin-top: auto;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--slate-light);
 }
 
 /* ---------- Footer ---------- */

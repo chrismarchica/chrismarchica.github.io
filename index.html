@@ -68,7 +68,36 @@
         <h2 class="section__title"><span class="section__num">02.</span> Projects</h2>
         <div class="projects">
           <!-- Projects will go here. Duplicate a .project-card per project. -->
-          <p class="projects__placeholder">Projects coming soon.</p>
+          <article class="project-card">
+            <header class="project-card__top">
+              <span class="project-card__icon" aria-hidden="true">🅿️</span>
+              <a
+                class="project-card__link"
+                href="https://parking-v2-191764898092.us-east4.run.app/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Open the NYC Parking Tracker live app"
+              >↗</a>
+            </header>
+            <h3 class="project-card__title">
+              <a href="https://parking-v2-191764898092.us-east4.run.app/" target="_blank" rel="noopener">
+                NYC Parking Tracker
+              </a>
+            </h3>
+            <p class="project-card__desc">
+              An interactive map of millions of NYC parking violations from NYC Open
+              Data (FY2017–2024), geocoded and rendered with Mapbox. A companion
+              XGBoost model predicts where and when a ticket is most likely. Deployed
+              on Google Cloud Run.
+            </p>
+            <ul class="project-card__tags">
+              <li>Next.js</li>
+              <li>Mapbox GL</li>
+              <li>PostGIS</li>
+              <li>XGBoost</li>
+              <li>Cloud Run</li>
+            </ul>
+          </article>
         </div>
       </div>
     </section>
