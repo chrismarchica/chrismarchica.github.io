@@ -255,6 +255,16 @@ a:hover {
 .project-card__link:hover {
   color: var(--accent);
 }
+.project-card__badge {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--slate-light);
+  padding: 3px 10px;
+  border: 1px solid rgba(136, 146, 176, 0.4);
+  border-radius: 999px;
+}
 .project-card__title {
   color: var(--white);
   font-size: 1.25rem;
