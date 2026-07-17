@@ -174,11 +174,6 @@ a:hover {
 }
 
 /* ---------- About ---------- */
-.about {
-  display: grid;
-  grid-template-columns: 3fr 2fr;
-  gap: 48px;
-}
 .about__text p {
   margin-bottom: 16px;
 }
@@ -201,15 +196,6 @@ a:hover {
   left: 0;
   color: var(--accent);
 }
-.about__photo {
-  width: 100%;
-  max-width: 280px;
-  aspect-ratio: 1;
-  border-radius: 6px;
-  background: var(--bg-light);
-  border: 1px solid var(--accent);
-}
-
 /* ---------- Projects ---------- */
 .projects {
   display: grid;
@@ -335,9 +321,6 @@ a:hover {
   }
   .nav__links.is-open {
     transform: translateX(0);
-  }
-  .about {
-    grid-template-columns: 1fr;
   }
   .about__list {
     grid-template-columns: 1fr;
